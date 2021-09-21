@@ -1,0 +1,45 @@
+.invest{
+    padding: 48px 155px 0 251px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 652px;
+    background-image: url(../img/world.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 65px;
+
+
+    &__wrapper{
+        width: 470px;
+    }
+    &__title{
+        font-family: 'Inter-Bold', sans-serif;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 50px;
+        color: $second-color;
+        span{
+            color: $main-color;
+        }
+
+    }
+    &__subtitle{
+        margin-top: 32px;
+        font-family: "Gilroy-SemiBold", sans-serif;
+        font-size: 15px;
+        line-height: 28px;
+        letter-spacing: 0.5px;
+        color: #8476AA;
+    }
+    &__button{
+        border-radius: 3px;
+        margin-top: 46px;
+        height: 54px;
+        width: 155px;
+        &:hover{
+            background-color: $main-color;
+            color: #fff;
+            box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
+        }
+    }
+}

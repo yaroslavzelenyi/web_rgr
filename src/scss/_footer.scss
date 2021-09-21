@@ -1,0 +1,90 @@
+footer{
+    margin-top: 60px;
+    height: 542px;
+    // background-image: url(../img/footer-background.png);
+    // background-repeat: no-repeat;
+    background: url(../img/footer-background.png) center (center/cover) no-repeat;
+    
+}
+.footer{
+    width: 992px;
+    height: 437px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &__media{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__help{
+            font-family: 'Inter-Bold', sans-serif;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 32px;
+            letter-spacing: 0.325px;
+            color: #F2994A;
+        }
+        &__items{
+            width: 152px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    &__social{
+        width: 40px;
+        height: 40px;
+        left: 1040px;
+        top: 4885px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba($color: #F6F6F6, $alpha: 0.1);
+        
+    }
+    &__main{
+        height: 171px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__column{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        &__capture{
+            margin-bottom: 9px;
+            font-family: 'Inter-Bold', sans-serif;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 18px;
+            letter-spacing: 0.5px;
+            color: #FFFFFF;
+        }
+        &__item{
+            a{
+                font-family: 'Inter-Regular',sans-serif;
+                font-weight: 400;
+                font-size: 15px;
+                letter-spacing: 0.2px;
+                color: #FFFFFF;
+                outline: none;
+                text-decoration: none;
+            }
+        }
+    }
+    &__policy{
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        width: 402px;
+        &__item{
+            font-family: 'Inter-Regular',sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 1px;
+            color: #8D8D8D;
+        }
+    }
+}

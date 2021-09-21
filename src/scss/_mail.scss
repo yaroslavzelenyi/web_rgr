@@ -1,0 +1,88 @@
+.mail{
+    height: 404px;
+    padding: 196px 250px 0 250px;
+    background-image: url(../img/vertical_lines.svg);
+    background-repeat: no-repeat;
+    background-position-y: 145px;
+    background-position-x: 25px;
+    background-size: 100%;
+    &__wrapper{
+        margin: 0 auto;
+        padding: 50px 156px;
+        width: 628px;
+        height: 224px;
+        background: rgba(60, 62, 125, 0.19);
+        backdrop-filter: blur(134px);
+        border-radius: 5px; 
+    }
+    &__title{
+
+        font-family: 'Rubik-Medium', sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 43px;
+        text-align: center;
+        color: $main-color;
+    }
+    &__subtitle{
+        margin: 20px auto 0 auto;
+        font-family: 'Rubik-Regular',sans-serif;
+        font-weight: 400;
+        width: 396px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #95A1BB;
+    }
+    &__form{
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 23px;
+        width: 416px;
+        height: 56px;
+    }
+    input{
+
+        width: 275px;
+        height: 100%;
+        background: rgba($color: #F6F6F6, $alpha: 0.1);
+        padding-left: 16px;
+        border-radius: 5px;
+        outline: none;
+        text-decoration: none;
+        border: none;
+        font-family: 'Inter-Regular', sans-serif;
+        font-style: 400;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: rgba(255, 255, 255, 0.5)
+    }
+    button{
+        width: 128px;
+        height: 100%;
+        display: inline-block;
+        background-color: $main-color;
+        color: #fff;
+        &:hover{
+            box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
+            cursor: pointer;
+        }
+    }
+    &__text{
+        display: block;
+        margin: 16px;
+        text-align: center;
+        font-family: 'Gilroy-SemiBold',sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #8476AA;
+    }
+}

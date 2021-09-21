@@ -1,0 +1,94 @@
+
+.promo{
+    height: 850px;
+    padding: 79px 170px 0 170px;
+    &__wrapper{
+        width: 540px;
+    }
+    &__title{
+        margin-top: 135px;
+        width: 531px;
+        font-family: 'Inter-Bold',sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 44px;
+        color: $second-color;
+    }
+    &__subtitle{
+        width: 468px;
+        margin-top: 19px;
+        font-family: 'Gilroy-Semibold', sans-serif;
+        font-size: 18px;
+        line-height: 22px;
+        color: #8476AA;
+    }
+    &__btns{
+        margin-top: 40px;
+        width: 334px;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        &__item{
+            width: 157px;
+            height: 46px;
+            border-radius: 3px;
+            &:hover{
+                background: $main-color;
+                box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+            }
+        } 
+    }
+    &__preview{
+        :hover{
+            cursor: pointer;
+        }
+        margin-top: 60px;
+        width: 540px;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__video{
+            width: 140px;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #361C5D;
+            border-radius: 4px;
+        }
+        &__descr{
+            width: 380px;
+            font-family: 'Rubik-Regular', sans-serif;
+            color: #8476AA;
+            font-size: 16px;
+            a{
+                display: block;
+                margin-top: 6px;
+                font-family: 'Rubik-Regular', sans-serif;
+                font-size: 14px;
+                color: #6D6D78;
+                outline: none;
+                text-decoration: none;
+            }
+        }
+    }
+    &__img{
+        position: absolute;
+        left: 711px;
+        top: 219.15px;
+    }
+}
+.partners{
+    margin-top: 103px;
+    margin-left: 63px;
+    width: 975px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    &__item{
+        img{
+            opacity: 0.3;
+        }
+    }
+}

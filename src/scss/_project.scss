@@ -1,0 +1,39 @@
+.project{
+    margin-top: 169px;
+    min-height: 553px;
+    padding: 0 118px;
+    &__title{
+        font-family: 'Inter-Bold', sans-serif;
+        width: 770px;
+        margin: 0 auto;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 50px;
+        text-align: center;
+        color: $second-color;
+        span{
+            color: $main-color;
+        }
+    }
+    &__button{
+        width: 164px;
+        height: 54px;
+        background-color: $main-color;
+        color:#fff;
+        border-radius: 3px;
+        margin: 46px auto 0 auto;
+        
+        &:hover{
+            box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
+            cursor: pointer;
+        }
+        
+    }
+    &__img{
+        z-index: -5;
+        position: absolute;
+        top: 2685px;
+        left: 158px;
+        opacity: 0.7;
+    }
+}

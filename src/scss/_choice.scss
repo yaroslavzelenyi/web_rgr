@@ -1,0 +1,67 @@
+.choice{
+    min-height: 382px;
+    padding: 0px 222px 12px 220px;
+    &::before{
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 98%;
+        width: 100%;
+        height: 80%;
+        z-index: 1;
+        opacity: 0.1;
+        background-image: url('../img/dots.svg');
+        background-repeat: no-repeat;
+    }
+    &__title{
+        font-family: 'Inter-Bold', sans-serif;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 50px;
+        text-align: center;
+        color: $second-color;
+    }
+    &__subtitle{
+        font-family: 'Gilroy-Semibold', sans-serif;
+        margin-top: 13px;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #8476AA;
+    }
+    &__features{
+        margin-top: 50px;
+        height: 250px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__item{
+        width: 299px;
+        height: 106px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    &__icon{
+        display: inline-block;
+    }
+    &__caption{
+        font-family: 'Gilroy-Bold',sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        color: $second-color;
+    }
+    &__text{
+        margin-top: 10px;
+        width: 247px;
+        font-family: 'Gilroy-Semibold', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #8476AA;
+
+    }
+}

@@ -1,0 +1,75 @@
+.simple{
+    margin-top: 46px;
+    &::before{
+        content: ' ';
+        display: block;
+        position: absolute;
+        top: 240%;
+        width: 100%;
+        height: 80%;
+        z-index: -2;
+        opacity: 0.6;
+        background-image: url('../img/comets.svg');
+        background-repeat: no-repeat;
+    }
+    &__container{
+        width: 1091px;
+        min-height: 322px;
+        margin: 0 auto;
+    }
+    &__title{
+        width: 864px;
+        margin: 0 auto;
+        font-family: 'Inter-Bold', sans-serif;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.33px;
+        color: $second-color;
+        span.base{
+            color: #F2994A;
+        }
+    }
+    &__subtitle{
+        font-family: 'Gilroy-Semibold', sans-serif;
+        margin-top: 32px;
+        font-size: 15px;
+        text-align: center;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #8476AA;
+    }
+    &__reasons{
+        margin-top: 48px;
+        display: flex;
+        justify-content: center;
+    }
+    &__item{
+        width: 291px;
+        min-height: 118px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__text{
+        margin-top: 16px;
+        font-family: 'Gilroy-Semibold', sans-serif;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #8476AA;
+    }
+    &__capture{
+        font-family: 'Inter-Bold', sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        text-align: center;
+        letter-spacing: 0.33px;
+        color: #99EFD0;
+    }
+}
+.first-string{
+    text-align: center;
+}

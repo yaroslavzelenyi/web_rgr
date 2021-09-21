@@ -1,0 +1,76 @@
+.online{
+    min-height: 446px;
+    background-image: url(../img/online-comets.svg);
+    background-repeat: no-repeat;
+    background-position-x: 1211px;
+    background-position-y: -76px;
+    &__container{
+        width: 1091px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__wrapper{
+        width: 512px;
+    }
+    &__img{
+        background: url(../img/bckgr.svg) no-repeat;
+        height: 445px;
+        width: 500px;
+       img.bitmap{
+            margin: 23px 42px 0 77px;
+            width: 375px;
+            border-radius: 8.77934px;
+
+       }
+    
+    }
+    &__title{
+        margin-top: 87px;
+        font-family: "Inter-Bold", sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 32px;
+        letter-spacing: 0.325px;
+        color: $second-color;
+
+    }
+    &__subtitle{
+        margin-top: 32px;
+        width: 414px;
+        font-family: 'Gilroy-Semibold', sans-serif;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #8476AA;
+    }
+    &__block{
+        margin-top: 48px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item{
+        height: 138px;
+        width: 215px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        &__capture{
+            font-family: "Inter-Bold", sans-serif;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 18px;
+            letter-spacing: 0.2px;
+            color: $second-color;
+        }
+        &__text{
+            font-family: 'Gilroy-Semibold', sans-serif;
+            font-size: 15px;
+            line-height: 20px;
+            letter-spacing: 0.2px;
+            color: #8476AA;
+        }
+    }
+}
